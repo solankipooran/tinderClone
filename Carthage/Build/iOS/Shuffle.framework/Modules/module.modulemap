@@ -1,0 +1,11 @@
+framework module Shuffle {
+  umbrella header "Shuffle.h"
+
+  export *
+  module * { export * }
+}
+
+module Shuffle.Swift {
+    header "Shuffle-Swift.h"
+    requires objc
+}
